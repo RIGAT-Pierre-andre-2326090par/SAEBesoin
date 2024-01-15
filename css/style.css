@@ -12,3 +12,14 @@ h1{
     right: 20px;
     bottom: 120px;
 }
+
+nav{
+    background-color: transparent;
+}
+
+ul li{
+    display:inline-flex;
+    flex-direction: row-reverse;
+    padding:20px;
+    font: size 20px;
+}
