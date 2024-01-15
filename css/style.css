@@ -15,9 +15,6 @@ h1{
 
 nav{
     background-color: transparent;
-}
-
-ul li{
     display:inline-flex;
     flex-direction: row-reverse;
     padding:20px;
