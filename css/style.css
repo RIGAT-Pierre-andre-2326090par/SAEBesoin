@@ -23,14 +23,9 @@ nav ul{
 }
 
 .icone{
-    width:6vw;
+    width:2vw;
     display: inline;
     align-items: center;
-
-
-
-
-
 
 }
 
@@ -43,5 +38,31 @@ nav ul{
 .reseaux{
     background-color: #00558b;
 
+
+}
+
+footer{
+    background-color: #00558b;
+    font-size: .9rem;
+    margin: 1rem;
+    color:white;
+    padding: 3rem;
+    text-align: center;
+}
+
+
+
+footer img{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+body{
+background-image: url(../img/fond.png);
+background-size: cover;
 
 }
