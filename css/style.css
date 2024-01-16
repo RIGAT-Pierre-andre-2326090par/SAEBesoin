@@ -72,3 +72,13 @@ footer img{
 
 
 }
+
+body{
+background-image: url(../img/fond.png);
+background-size: cover;
+
+}
+
+hr{
+    color: #e8ce7e;
+}
