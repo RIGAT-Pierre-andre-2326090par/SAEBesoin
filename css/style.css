@@ -37,9 +37,12 @@ nav ul{
 
 }
 
-
 .logo{
     width:27vw;
+}
+
+.corps{
+    margin: 0 1em;
 }
 
 .reseaux{
@@ -52,7 +55,7 @@ nav ul{
 
 footer{
     position: absolute;
-    right: 1px;
+    right: 0;
     left: 0;
     bottom: 0;
     background-color: #00558b;
@@ -61,21 +64,16 @@ footer{
     text-align: center;
 }
 
-
-
 footer img{
     display: inline-block;
     vertical-align: middle;
     max-width: 100%;
     height: auto;
-
-
 }
 
 body{
 background-image: url(../img/fond.png);
 background-size: cover;
-
 }
 
 hr{
