@@ -54,6 +54,12 @@ nav ul{
     background-color: #00558b;
 }
 
+.header2 {
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
 footer{
     position: absolute;
     right: 0;
