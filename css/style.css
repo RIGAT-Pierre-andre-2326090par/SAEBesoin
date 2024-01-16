@@ -45,7 +45,9 @@ nav ul{
 
 .reseaux{
     position: absolute;
+    top: 0;
     left: 0;
+    margin-right: 50em;
     background-color: #00558b;
 
 
