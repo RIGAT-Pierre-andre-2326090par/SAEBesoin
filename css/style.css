@@ -36,29 +36,24 @@ h1{
 }
 
 nav ul{
-    background-color: transparent;
-    display:flex;
+    display: flex;
     list-style-type: none;
-    flex-direction: row;
-    padding:20px;
-    font: size 20px;
-    justify-content:space-between;
+    text-align: center;
+    padding-inline-start: 0;
+    font-size: 1em;
     flex-wrap: wrap;
+}
 }
 
 nav li{
-    padding-top: 1em;
-    padding-bottom: 1em;
+    display: inline-block;
+    flex: 1 1 !important;
     text-decoration: none;
 }
 
-nav a:hover{
+nav li:hover {
     transform: scale(1.10);
     transition: 0.5s;
-}
-
-nav li>span{
-    background-color: #e8ce7e;
 }
 
 .icone{
