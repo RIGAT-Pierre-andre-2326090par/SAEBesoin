@@ -46,10 +46,6 @@ nav ul{
 }
 
 .reseaux{
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
     background-color: #00558b;
 }
 
@@ -60,12 +56,7 @@ nav ul{
 }
 
 footer{
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
     background-color: #00558b;
-    font-size: .9rem;
     color:white;
     text-align: center;
 }
