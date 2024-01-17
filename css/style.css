@@ -21,6 +21,7 @@ body {
     margin:20px;
     padding:10px;
     border : 2px solid #5482AB;
+    border-radius: 5%;
 }
 
 h1{
