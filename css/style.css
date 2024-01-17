@@ -37,6 +37,7 @@ h1{
 
 nav ul{
     display: flex;
+    margin: 0;
     list-style-type: none;
     text-align: center;
     padding-inline-start: 0;
@@ -48,9 +49,10 @@ nav li{
     display: inline-block;
     flex: 1 1 !important;
     text-decoration: none;
+    margin: auto;
 }
 
-nav li:hover {
+nav li:hover{
     transform: scale(1.10);
     transition: 0.5s;
 }
