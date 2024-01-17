@@ -54,6 +54,7 @@ nav li{
     display: inline-block;
     flex: 1 1 !important;
     text-decoration: none;
+    color: #000000;
     transform: scale(1.10);
     transition: 0.5s;
 }
