@@ -48,6 +48,13 @@ nav ul{
 
 nav li{
     padding: 5%;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav li>span:hover{
+    transform: scale(1.10);
+    transition: 0.5s;
 }
 
 nav li>span{
