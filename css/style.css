@@ -96,7 +96,7 @@ p{
 .logo2{
     position: absolute;
     right: 0;
-    width: 10%;
+    width: 5%;
 }
 
 header {
@@ -140,13 +140,12 @@ button{
 }
 
 #fond-video{
+    display: flex;
     background-color: #00B0CA;
-    border-radius: center;
-    margin: ;
-}
-
-video{
-    margin: 0.5em 2em;
+    border-radius: 15%;
+    margin: 0 40%;
+    padding: 1em 2.5em;
+    align-items: center;
 }
 
 #attestation {
@@ -167,9 +166,20 @@ video{
 a {
     color: #000;
     text-decoration: none;
-
 }
 
 #a-propos li{
     list-style-type: none;
+}
+
+section{
+    text-align: center;
+    display:flex;
+}
+
+.texte{
+    padding:2px;
+
+
+    
 }
