@@ -18,11 +18,11 @@ body {
 }
 
 h2{
-    margin: 0 2em;
+    margin: 0.5em 2em;
 }
 
 p{
-    margin: 0 2em;
+    margin: 0.5em 2em;
 }
 
 .ancre{
@@ -75,7 +75,7 @@ p{
     flex: 1 1 !important;
     text-decoration: none;
     margin: auto;
-    margin-top: 1em;
+    margin: 0.5em;
 }
 
 .nav2 li:hover{
@@ -128,9 +128,9 @@ hr{
 }
 
 button{
-    background-color: #00558b;
+    background-color: #ffCC00;
     border: none;
-    color: #fff;
+    color: #000000;
     padding: 15px 32px;
     text-decoration: none;
     font-size: 16px;
@@ -139,8 +139,14 @@ button{
     border-radius: 12px;
 }
 
+#fond-video{
+    background-color: #00B0CA;
+    border-radius: center;
+    margin: ;
+}
+
 video{
-    margin: 0 2em;
+    margin: 0.5em 2em;
 }
 
 #attestation {
