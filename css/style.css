@@ -25,7 +25,6 @@ body {
 
 h1{
     margin: 0.5em 2em;
-
 }
 
 h2{
@@ -160,6 +159,10 @@ button{
     box-shadow: 0 0 1em #000000;
 }
 
+#fond-video iframe{
+    width: 100%;
+}
+
 #attestation {
     color: #fff;
     text-decoration: none;
@@ -186,8 +189,6 @@ a {
 
 .sport{
     width:10vw;
-
-
 }
 
 iframe{
