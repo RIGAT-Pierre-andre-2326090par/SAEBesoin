@@ -10,6 +10,11 @@ h1{
     font-family: Poppins, sans-serif;
 }
 
+#intro {
+    text-align: center;
+    font-size: 1.5em;
+}
+
 #titre-index{
     text-align: center;
     color: #005A8B;
