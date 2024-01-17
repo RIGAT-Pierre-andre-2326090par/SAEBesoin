@@ -1,14 +1,10 @@
 body {
-    font-family: "Titillium Web", sans-serif;
+    font-family: "Verdana", sans-serif;
     font-weight: 400;
     font-size: 1.05rem;
     background-image: url(../img/fond.png);
     background-size: cover;
     margin: 0;
-}
-
-h1{
-    font-family: Poppins, sans-serif;
 }
 
 #intro {
@@ -95,6 +91,12 @@ header {
     left: 0;
     border: none;
     background-color: #00558b;
+}
+
+.logo2{
+    position: absolute;
+    right: 0;
+    width: 10%;
 }
 
 footer{
