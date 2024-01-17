@@ -150,6 +150,32 @@ button{
     border-radius: 12px;
 }
 
+#barre-sport ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    padding-inline-start: 0;
+    font-size: 1em;
+    flex-direction: column;
+}
+
+#barre-sport li{
+    display: inline-block;
+    flex: 1 1 !important;
+    text-decoration: none;
+}
+
+#barre-sport img{
+    border-radius: 5%;
+    width: 20%;
+    height: 60%;
+}
+
+#barre-sport img:hover{
+    transform: scale(1.10);
+    transition: 0.5s;
+}
+
 #fond-video{
     display: flex;
     justify-content: center;
