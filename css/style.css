@@ -5,6 +5,9 @@ body {
     background-image: url(../img/fond.png);
     background-size: cover;
 }
+.corps{
+    margin-top: 2em;
+}
 
 h1{
     font-family: Poppins, sans-serif;
