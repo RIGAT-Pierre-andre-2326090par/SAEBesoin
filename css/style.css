@@ -54,7 +54,6 @@ h1{
 
 .nav1 li:hover{
     border: solid;
-    border-radius: 5%;
     border-color: #FFCC00;
     transform: scale(1.10);
     transition: 0.5s;
@@ -75,6 +74,7 @@ h1{
     flex: 1 1 !important;
     text-decoration: none;
     margin: auto;
+    margin-top: 1em;
 }
 
 .nav2 li:hover{
@@ -112,13 +112,8 @@ footer{
 footer img{
     display: inline-block;
     vertical-align: middle;
-    max-width: 100%;
+    width: 20%;
     height: auto;
-}
-
-body{
-background-image: url(../img/fond.png);
-background-size: cover;
 }
 
 hr{
