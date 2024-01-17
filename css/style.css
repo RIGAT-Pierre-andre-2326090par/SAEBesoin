@@ -51,6 +51,7 @@ p{
 .nav1 ul{
     display: flex;
     margin: 0 5em;
+    padding-bottom: 1em;
     list-style-type: none;
     text-align: center;
     padding-inline-start: 0;
@@ -157,19 +158,20 @@ button{
     text-align: center;
     padding-inline-start: 0;
     font-size: 1em;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #barre-sport li{
     display: inline-block;
     flex: 1 1 !important;
     text-decoration: none;
+    margin: 0.5 3em;
 }
 
 #barre-sport img{
     border-radius: 5%;
-    width: 20%;
-    height: 60%;
+    width: 10em;
+    height: 5em;
 }
 
 #barre-sport img:hover{
