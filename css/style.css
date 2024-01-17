@@ -20,6 +20,7 @@ body {
 section{
     margin:20px;
     padding:10px;
+    border : 2px solid #5482AB;
 }
 
 h1{
