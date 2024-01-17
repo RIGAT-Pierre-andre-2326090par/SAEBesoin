@@ -17,6 +17,12 @@ body {
     color: #005A8B;
 }
 
+h1{
+    margin: 0.5em 2em;
+
+
+}
+
 h2{
     margin: 0.5em 2em;
 }
@@ -140,14 +146,12 @@ button{
 }
 
 #fond-video{
-    display: block;
+    display: flex;
+    justify-content: center;
     background-color: #00B0CA;
     border-radius: 10%;
-    margin: 1% 35%;
-    max-width: 250%;
-    max-height: 150%;
-    padding: 1% 4%;
-    align-items: center;
+    margin: 1% 40%;
+    padding: 1%;
     box-shadow: 0 0 1em #000000;
 }
 
