@@ -117,7 +117,14 @@ button{
       margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
+}
 
+a {
+    color: white;
+    text-decoration: none;
+}
 
-
+a:visited {
+    color: white;
+    text-decoration: none;
 }
