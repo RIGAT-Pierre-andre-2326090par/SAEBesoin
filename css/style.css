@@ -4,6 +4,7 @@ body {
     font-size: 1.05rem;
     background-image: url(../img/fond.png);
     background-size: cover;
+    margin: 0;
 }
 .corps{
     margin-top: 2em;
