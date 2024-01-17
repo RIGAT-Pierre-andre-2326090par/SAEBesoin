@@ -52,7 +52,7 @@ nav li{
     text-decoration: none;
 }
 
-nav li>span:hover{
+nav li:hover{
     transform: scale(1.10);
     transition: 0.5s;
 }
