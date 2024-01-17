@@ -17,7 +17,7 @@ body {
     color: #005A8B;
 }
 
-section{
+.base{
     margin:20px;
     padding:10px;
     border : 2px solid #5482AB;
