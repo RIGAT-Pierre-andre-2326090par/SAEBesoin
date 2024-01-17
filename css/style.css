@@ -50,13 +50,16 @@ nav ul{
     flex-wrap: wrap;
 }
 
-nav li>span{
+nav li{
     display: inline-block;
     flex: 1 1 !important;
     text-decoration: none;
-    background-color: #e8ce7e;
     transform: scale(1.10);
     transition: 0.5s;
+}
+
+nav li>span{
+    background-color: #e8ce7e;
 }
 
 .icone{
