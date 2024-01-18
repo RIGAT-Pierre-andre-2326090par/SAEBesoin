@@ -31,8 +31,29 @@ body {
     padding: 1em;
 }
 
+.special{
+    width: 100vw;
+    text-align: center;
+}
+.sectionsport{
+    display:flex;
+    flex-wrap:wrap;
+    margin-left: auto;
+    margin-right:auto;
+    border: solid 3px #e8ce7e;
+    background-color: whitesmoke;
+    border-radius:20px;
+    box-shadow: 0px 0px 22px -6px rgba(0,0,0,0.32);
+    margin:1em 3em;
+    padding: 1em;
+}
+
 .p_info{
     margin-left: 3em;
+}
+
+.p_info a:hover{
+    color: #00B0CA;
 }
 
 h1{
@@ -169,37 +190,16 @@ button{
     border-radius: 12px;
 }
 
-#barre-sport ul{
-    display: flex;
-    list-style-type: none;
-    text-align: center;
-    padding-inline-start: 0;
-    font-size: 1em;
-    flex-wrap: wrap;
-}
 
-#barre-sport li{
-    display: inline-block;
-    flex: 1 1 !important;
-    text-decoration: none;
-    margin: 0.5% auto;
-    color: transparent;
-}
 
-#barre-sport li:hover{
-    color: #000000;
-}
-
-#barre-sport img{
+.sport{
     border-radius: 5%;
     width: 20em;
     height: 10em;
+    margin : 1vw;
+    
 }
 
-#barre-sport img:hover{
-    transform: scale(1.05);
-    transition: 0.5s;
-}
 
 #fond-video{
     display: flex;
@@ -260,17 +260,32 @@ a {
     text-decoration: underline blue;
 }
 
-#coupe_iut {
+.coupe_iut {
     display: flex;
     margin: auto;
 }
 
-#coupe_iut img{
+.coupe_iut img{
     margin: auto;
     width: 20%;
     height: 50%;
+
 }
 
 iframe{
     text-align: center;
+}
+
+.couleur:hover{
+    background-color: whitesmoke;
+    border: solid 1px #e8ce7e;
+
+
+}
+
+.info p> span{
+background-color: rgb(221, 219, 219);
+
+
+    
 }
