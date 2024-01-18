@@ -294,7 +294,7 @@ a {
     text-decoration: none;
 }
 
-.plus p>span:hover {
+.plus:hover {
     color: #00f;
     text-decoration: underline blue;
 }
