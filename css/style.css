@@ -5,7 +5,7 @@ body {
     background-image: url(../img/fond.png);
     background-size: cover;
     margin: 0;
-}
+
 
 #intro {
     text-align: center;
@@ -67,8 +67,6 @@ p{
 }
 
 .nav1 li:hover{
-    border: solid;
-    border-color: #ffCC00;
     transform: scale(1.10);
     transition: 0.5s;
 }
@@ -110,6 +108,7 @@ p{
     position: absolute;
     right: 0;
     width: 5%;
+    margin: 2em;
 }
 
 header {
@@ -181,13 +180,33 @@ button{
 
 #fond-video{
     display: flex;
+    margin: auto;
+    padding: 2%;
+    width: 40%;
+    height: 15em;
     justify-content: center;
     background-color: #00B0CA;
     border-radius: 10%;
-    margin: 1% 40%;
-    padding: 1%;
     box-shadow: 0 0 1em #000000;
 }
+
+@media (min-width: 864px) {
+    #fond-video {
+        margin: auto;
+        padding: 2%;
+        width: 60%;
+        height: 15em;
+    }
+  }
+
+  @media (min-width: 790px) {
+    #fond-video {
+        margin: auto;
+        padding: 2%;
+        width: 60%;
+        height: 15em;
+    }
+  }
 
 #fond-video iframe{
     width: 100%;
@@ -213,10 +232,23 @@ a {
     text-decoration: none;
 }
 
-#a-propos li{
+.plus:hover {
+    color: #00f;
+    text-decoration: underline blue;
+}
+
+#coupe_iut {
+    display: list-item;
+    margin: auto;
     list-style-type: none;
 }
 
+#coupe_iut img{
+    margin: auto;
+    
+    width: 20%;
+    height: 50%;
+}
 
 iframe{
     text-align: center;
