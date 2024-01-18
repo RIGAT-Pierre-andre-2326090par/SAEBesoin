@@ -205,7 +205,7 @@ button{
     width: 20em;
     height: 10em;
     margin : 1vw;
-    
+    object-fit: cover;
 }
 
 
